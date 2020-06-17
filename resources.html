@@ -11,6 +11,7 @@
     />
   </head>
   <body>
+  <div class="wrapper">
     <div class="navbar" id="navbar">
       <div class="nav-buttons">
         <a href="index.html">Roadmap</a> 
@@ -18,23 +19,22 @@
         <a href="resources.html" class="active">Resources</a>
       </div>
     </div>
-    <div class="resource-grid-container">
       <div class="sidebar">
         <a href="#security" class="sidenav">Security</a>
         <a href="#networks" class="sidenav">Networks</a>
         <a href="#python" class="sidenav">Python</a>
         <a href="#miscellaneous" class="sidenav">Miscellaneous</a>
         <a href="#mystuff" class="sidenav">My stuff</a>
+        <a href="#other" class="sidenav">Other stuff</a>
         <a href="#git" class="sidenav">Git</a>
         <a href="#fundamentals" class="sidenav">Fundamentals</a>
         <a href="#long-term" class="sidenav">Goals</a>
-        <a href="#listen" class="sidenav">To listen</a>
+        <a href="#listen" class="sidenav">Listen</a>
         <a href="#eye" class="sidenav">Keep an eye</a>
         <a href="#projects" class="sidenav">Projects</a>
-        <a href="#other" class="sidenav">Other stuff</a>
         <a href="#security" class="small-sidenav sidenav">Back to top</a>
       </div>
-      <div class="resource-list">
+      <div class="content1">
         <h2 id="security">Security</h2>
         <ul>
           <li>
@@ -207,6 +207,27 @@
             <a href="https://neliraituri.github.io">neliraituri.github.io</a>
           </li>
         </ul>
+        <h2 id="other">Other stuff</h2>
+          <ul>
+            <li><a href="https://devdocs.io/">DevDocs</a></li>
+            <li><a href="https://atomicdesign.bradfrost.com/chapter-1/">Atomic Design</a></li>
+            <li><a href="https://stateofjs.com/">State of JS</a></li>
+            <li><a href="https://insights.stackoverflow.com/survey/2019">Stack Overflow survey</a></li>
+            <li><a href="https://insights.stackoverflow.com/trends?tags=scala%2Cgo%2Celixir%2Crust">Language trends / Stack Overflow</a></li>
+            <li><a href="https://redmonk.com/sogrady/2020/02/28/language-rankings-1-20/">Redmonk survey</a></li>
+            <li><a href="https://github.com/ossu/computer-science">OSSU</a></li>
+            <li><a href="https://teachyourselfcs.com/">Teach Yourself CS</a></li>
+            <li><a href="https://www.hackerrank.com/">HackerRank</a></li>
+            <li><a href="https://courses.helsinki.fi/fi/avoin-yliopisto/opinnot/tietojenk%C3%A4sittelytiede">Helsingin yliopisto</a></li>
+            <li><a href="https://www.thoughtworks.com/radar/languages-and-frameworks">Thoughtworks languages and frameworks radar</a></li>
+            <li><a href="https://davidwalsh.name/">David Walsh blog</a></li>
+            <li><a href="https://css-tricks.com/">CSS Tricks</a></li>
+            <li><a href="https://kentcdodds.com/blog/">Kent C Dodds blog</a></li>
+            <li><a href="https://alligator.io/">Alligator.io</a></li>
+            <li><a href="https://github.com/donnemartin/system-design-primer/blob/master/README.md">System Design Primer</a></li>
+          </ul>
+      </div>
+      <div class="content2">
         <h2 id="git">Git, Shell, Design Patterns</h2>
         <ul>
           <li>
@@ -273,70 +294,53 @@
           <li><a href="https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab">Essence of Linear Algebra</a></li>
           </li>
         </ul>
-        <h2 id="long-term">Long-term goals:</h2>
-    <ul>
-      <li>MEVN/MERN stack + TypeScript</li>
-      <li>Database ting: GraphQL, MongoDB, <a href="https://sqlbolt.com/">SQL</a>, MariaDB</li>
-      <li>Data viz pack: Vue/React + D3 + Python + Tableau + SQL</li>
-      <li>Big data: <a href="https://www.coursera.org/learn/progfun1">Scala</a> + Apache Spark, Akka, Scala.js</li>
-      <li>Ways of working: Atomic design / BDD, DDD and TDD</li>
-      <li>3D stuff with Three.js</li>
-      <li>Linux command line</li>
-      <li>Some major cloud services: Azure Cosmos DB, AWS</li>
-      <li>Deployment skills</li>
-      <li><a href="http://johnny-five.io/">Johnny-Five robotics projects</a></li>
-    </ul>
-  <h2 id="listen">To listen</h2>
-    <ul>
-      <li><a href="https://www.codingblocks.net/">Coding Blocks</a></li>
-      <li><a href="https://syntax.fm/">Syntax.fm</a></li>
-      <li><a href="https://changelog.com/podcast">Changelog</a></li>
-      <li><a href="https://realtalkjavascript.simplecast.com/episodes">Real Talk JavaScript</a></li>
-      <li><a href="https://www.selftaughtornot.com/">Self-Taught or Not</a></li>
-    </ul>
-  <h2 id="eye">Keep an eye</h2>
-    <ul>
-      <li>Native app frameworks: Electron, Nw.js, Neutralino</li>
-      <li>Additional languages:</li>
-      <li>Scala (Functional paradigm)</li>
-      <li>Elixir (Actor model)</li>
-      <li>Rust (Borrowing and lifetimes)</li>
-      <li>Go</li>
-      <li>Dart (cross-platform with <a href="https://github.com/londonappbrewery/Flutter-Course-Resources">Flutter</a>)</li>
-      <li><a href="https://docs.swift.org/swift-book/GuidedTour/GuidedTour.html">Swift (iOS)</a></li>
-      <li><a href="https://codelabs.developers.google.com/kotlin-bootcamp/">Kotlin (Android)</a></li> 
-      <li>Crystal</li>
-      <li>Idris (Dependent type systems)</li>
-      <li>Elasticsearch</li>
-    </ul>
-  <h2 id="projects">Projects</h2>
-      <ul>
-        <li><a href="https://javascript30.com/">JavaScript 30</a></li>
-        <li><a href="https://www.theodinproject.com/courses/nodejs"
-          >The Odin Project / Node</a
-        ></li>
-        <li><a href="https://redstapler.co/create-3d-world-with-three-js-and-skybox-technique/">Three.js: 3D world with Skybox</a></li>
-      </ul>
-  <h2 id="other">Other stuff</h2>
-    <ul>
-      <li><a href="https://devdocs.io/">DevDocs</a></li>
-      <li><a href="https://atomicdesign.bradfrost.com/chapter-1/">Atomic Design</a></li>
-      <li><a href="https://stateofjs.com/">State of JS</a></li>
-      <li><a href="https://insights.stackoverflow.com/survey/2019">Stack Overflow survey</a></li>
-      <li><a href="https://insights.stackoverflow.com/trends?tags=scala%2Cgo%2Celixir%2Crust">Language trends / Stack Overflow</a></li>
-      <li><a href="https://redmonk.com/sogrady/2020/02/28/language-rankings-1-20/">Redmonk survey</a></li>
-      <li><a href="https://github.com/ossu/computer-science">OSSU</a></li>
-      <li><a href="https://teachyourselfcs.com/">Teach Yourself CS</a></li>
-      <li><a href="https://www.hackerrank.com/">HackerRank</a></li>
-      <li><a href="https://courses.helsinki.fi/fi/avoin-yliopisto/opinnot/tietojenk%C3%A4sittelytiede">Helsingin yliopisto</a></li>
-      <li><a href="https://www.thoughtworks.com/radar/languages-and-frameworks">Thoughtworks languages and frameworks radar</a></li>
-      <li><a href="https://davidwalsh.name/">David Walsh blog</a></li>
-      <li><a href="https://css-tricks.com/">CSS Tricks</a></li>
-      <li><a href="https://kentcdodds.com/blog/">Kent C Dodds blog</a></li>
-      <li><a href="https://alligator.io/">Alligator.io</a></li>
-      <li><a href="https://github.com/donnemartin/system-design-primer/blob/master/README.md">System Design Primer</a></li>
-    </ul>
+        <h2 id="long-term">Long-term goals</h2>
+          <ul>
+            <li>MEVN/MERN stack + TypeScript</li>
+            <li>Database ting: GraphQL, MongoDB, <a href="https://sqlbolt.com/">SQL</a>, MariaDB</li>
+            <li>Data viz pack: Vue/React + D3 + Python + Tableau + SQL</li>
+            <li>Big data: <a href="https://www.coursera.org/learn/progfun1">Scala</a> + Apache Spark, Akka, Scala.js</li>
+            <li>Ways of working: Atomic design / BDD, DDD and TDD</li>
+            <li>3D stuff with Three.js</li>
+            <li>Linux command line</li>
+            <li>Some major cloud services: Azure Cosmos DB, AWS</li>
+            <li>Deployment skills</li>
+            <li><a href="http://johnny-five.io/">Johnny-Five robotics projects</a></li>
+          </ul>
+        <h2 id="listen">To listen</h2>
+          <ul>
+            <li><a href="https://www.codingblocks.net/">Coding Blocks</a></li>
+            <li><a href="https://syntax.fm/">Syntax.fm</a></li>
+            <li><a href="https://changelog.com/podcast">Changelog</a></li>
+            <li><a href="https://realtalkjavascript.simplecast.com/episodes">Real Talk JavaScript</a></li>
+            <li><a href="https://www.selftaughtornot.com/">Self-Taught or Not</a></li>
+          </ul>
+        <h2 id="eye">Keep an eye</h2>
+          <ul>
+            <li>Native app frameworks: Electron, Nw.js, Neutralino</li>
+            <li>Additional languages:</li>
+            <li>Scala (Functional paradigm)</li>
+            <li>Elixir (Actor model)</li>
+            <li>Rust (Borrowing and lifetimes)</li>
+            <li>Go</li>
+            <li>Dart (cross-platform with <a href="https://github.com/londonappbrewery/Flutter-Course-Resources">Flutter</a>)</li>
+            <li><a href="https://docs.swift.org/swift-book/GuidedTour/GuidedTour.html">Swift (iOS)</a></li>
+            <li><a href="https://codelabs.developers.google.com/kotlin-bootcamp/">Kotlin (Android)</a></li> 
+            <li>Crystal</li>
+            <li>Idris (Dependent type systems)</li>
+            <li>Elasticsearch</li>
+          </ul>
+        <h2 id="projects">Projects</h2>
+            <ul>
+              <li><a href="https://javascript30.com/">JavaScript 30</a></li>
+              <li><a href="https://www.theodinproject.com/courses/nodejs"
+                >The Odin Project / Node</a
+              ></li>
+              <li><a href="https://redstapler.co/create-3d-world-with-three-js-and-skybox-technique/">Three.js: 3D world with Skybox</a></li>
+            </ul>
+        
       </div>
     </div>
+  </div>
   </body>
 </html>
