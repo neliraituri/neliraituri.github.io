@@ -1,2 +1,2 @@
-# neliraituri.github.io
-Programming HQ page
+# HQGrid
+Programming roadmap
