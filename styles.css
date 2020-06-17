@@ -106,8 +106,7 @@ h2 {
 
 .roadmap-grid-container {
   display: grid;
-  grid-gap: 5px;
-  grid-template-columns: repeat(2, minmax(250px, 400px));
+  grid-template-columns: repeat(2, minmax(150px, 400px));
   justify-content: center;
   text-align: center;
   vertical-align: middle;
@@ -115,13 +114,13 @@ h2 {
 
 .roadmap-grid-container > div {
   grid-gap: 7px;
-  padding: 12px;
+  padding: 2.5%;
 }
 
 .information {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: 70px;
+  grid-template-rows: 80px;
   grid-column: 1 / 2;
 }
 
@@ -136,11 +135,11 @@ h2 {
 }
 
 .information-second {
-  grid-template-rows: repeat(3, 70px);
+  grid-template-rows: repeat(3, 80px);
 }
 
 .information-third {
-  grid-template-rows: repeat(2, 70px);
+  grid-template-rows: repeat(2, 80px);
 }
 
 .information-third > .item3 {
