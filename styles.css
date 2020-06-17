@@ -145,7 +145,7 @@ h2 {
 .fundamentals > * {
   border: 2px solid #4b626d;
   border-radius: 5px;
-  background-color: #f3e5ef;
+  background-color: #edfaf6;
 }
 
 .fundamentals > a:hover {
@@ -192,7 +192,7 @@ h2 {
 
 .sidebar > * {
   font-size: 14px;
-  margin: 10px;
+  margin: 12px;
 }
 
 .footer {
@@ -200,9 +200,8 @@ h2 {
   background-color: #8cada3;
   padding: 20px 0;
   margin: 10px 0 0 0;
-  display: grid;
-  justify-content: center;
-  grid-area: 'footer';
+  display: flex;
+  justify-content: space-around;
 }
 
 ul {
@@ -216,4 +215,25 @@ ul {
 
 .active {
   border-bottom: 2px dashed;
+}
+
+.color-box-container {
+  display: flex;
+  flex-direction: row;
+  border-radius: 5px;
+  justify-content: center;
+}
+
+.color-box {
+  display: flex;
+  height: 50%;
+  border-style: double;
+  flex-basis: 25%;
+}
+
+.color-box > p {
+  color: #212121;
+  font-size: 14px;
+  padding: 7px;
+  margin-top: 18px;
 }
