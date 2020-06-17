@@ -191,6 +191,7 @@ h2 {
 
 .content1 {
   grid-area: content1;
+  margin-left: 20px;
   margin-top: 70px;
 }
 
