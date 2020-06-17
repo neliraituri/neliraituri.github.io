@@ -1,31 +1,3 @@
-.dark-primary-color {
-  background: #4b626d;
-}
-.default-primary-color {
-  background: #8cada3;
-}
-.light-primary-color {
-  background: #dbe6e2;
-}
-.text-primary-color {
-  color: #ffffff;
-}
-.accent-color {
-  background: #ffd640;
-}
-.accent-color2 {
-  background: #30b88f;
-}
-.primary-text-color {
-  color: #212121;
-}
-.secondary-text-color {
-  color: #b865a3;
-}
-.divider-color {
-  border-color: #f3e5ef;
-}
-
 * {
   margin: 0;
   padding: 0;
