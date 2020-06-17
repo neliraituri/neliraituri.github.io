@@ -196,6 +196,7 @@ h2 {
 
 .content2 {
   grid-area: content2;
+  margin-left: 20px;
   margin-top: 70px;
 }
 
@@ -212,7 +213,7 @@ h2 {
 
 .sidebar > * {
   font-size: 14px;
-  margin: 16px;
+  padding: 12px;
 }
 
 .footer {
@@ -229,7 +230,7 @@ ul {
 }
 
 .small-sidenav {
-  padding-top: 5px;
+  padding-top: 30px;
   font-size: 12px;
 }
 
