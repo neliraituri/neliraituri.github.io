@@ -114,7 +114,7 @@ h2 {
 
 .roadmap-grid-container > div {
   grid-gap: 7px;
-  padding: 7px;
+  padding: 2.5%;
 }
 
 .information {
@@ -127,11 +127,6 @@ h2 {
 .information > a:hover {
   background-color: #b865a3;
   color: #ffffff;
-}
-
-.information-top {
-  grid-template-columns: 2fr;
-  grid-template-rows: 1fr;
 }
 
 .information-second {
