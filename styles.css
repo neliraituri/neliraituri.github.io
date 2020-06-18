@@ -59,6 +59,7 @@ h2 {
   width: 100vw;
   position: fixed;
   justify-content: center;
+  z-index: 999;
   grid-area: navbar;
 }
 
