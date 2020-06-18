@@ -74,7 +74,7 @@ h2 {
 
 .completed {
   text-decoration: line-through;
-  opacity: 0.2;
+  opacity: 0.3;
 }
 
 .roadmap-grid-container {
