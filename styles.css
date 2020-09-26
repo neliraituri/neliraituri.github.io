@@ -116,10 +116,10 @@ h2 {
 }
 
 .information-fourth {
-  grid-template-rows: repeat(2, 80px);
+  grid-template-rows: repeat(3, 80px);
 }
 
-.information-fourth > .item1 {
+.information-fourth > .item3 {
   grid-column: 1 / 3;
 }
 
@@ -144,7 +144,7 @@ h2 {
 
 .fund-third {
   grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(2, 80px);
+  grid-template-rows: repeat(2);
 }
 
 .fundamentals > * {
