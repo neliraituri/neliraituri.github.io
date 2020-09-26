@@ -1,2 +1,2 @@
 # Programming HQ: Path Forward
-A roadmap for studying programming, JavaScript and relevant frameworks.
+A personal learning plan and a collection of resources. A roadmap for programming, mostly in JavaScript and relevant frameworks.
