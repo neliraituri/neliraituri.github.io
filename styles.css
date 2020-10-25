@@ -116,7 +116,7 @@ h2 {
 }
 
 .information-fourth {
-  grid-template-rows: repeat(3, 80px);
+  grid-template-rows: repeat(2, 80px);
 }
 
 .information-fourth > .item3 {
