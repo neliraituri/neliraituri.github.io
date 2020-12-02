@@ -117,6 +117,8 @@ h2 {
 
 .information-fourth {
   grid-template-rows: repeat(2, 80px);
+
+  grid-template-columns: repeat(2);
 }
 /* 
 .information-fourth > .item3 {
